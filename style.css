@@ -1,0 +1,100 @@
+/* PC用のスタイル */
+@media screen and (min-width:768px) {
+
+
+  /* 横幅設定 */
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+  /* ヘッダー */
+#header-nav{
+  width: 650px;
+  display: flex;
+  margin: auto;
+}
+
+h1{
+  border: 1px solid;
+  padding: 11px 28px;
+}
+
+nav{
+  font-weight: bold;
+  font-size: 34px;
+  margin: auto;
+  margin-left: 132px;
+}
+
+nav > a:first-child{
+margin-right: 35px;
+}
+
+
+/* メインビジュアル */
+#main-visual img{
+  width: 100%;
+  height: 400px;
+}
+
+
+/* About */
+
+section{
+  width: 573px;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 34px;
+  margin: 50px 0 13px 0;
+}
+
+#profile{
+  display: flex;
+  margin-top: 22px}
+
+#profile img{
+  width: 141px;
+  height: 142px;
+  border-radius: 50%;
+  margin-right: 33px;
+}
+
+h3{
+  font-size: 24px;
+  margin: 0 0 0 8px;
+}
+
+#profile div ul{
+  margin-top: 13px;
+}
+
+/* Works */
+
+#wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#wrap div{
+  width: 179px;
+}
+
+#wrap div img{
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+}
+
+
+}
