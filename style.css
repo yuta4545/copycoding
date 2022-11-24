@@ -1,3 +1,10 @@
+/* PC,スマホ共通スタイル */
+body{
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 /* PC用のスタイル */
 @media screen and (min-width:768px) {
 
@@ -7,8 +14,6 @@ body {
   max-width: 1080px;
   min-width: 960px;
   margin: 0 auto;
-  background-color: #ffffff;
-  color: #000000;
 }
 
   /* ヘッダー */
@@ -53,6 +58,11 @@ h2{
   text-align: center;
   font-size: 34px;
   margin: 50px 0 13px 0;
+}
+
+#header-nav nav a{
+  color: #000000;
+  text-decoration: none;
 }
 
 #profile{
